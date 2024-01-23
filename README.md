@@ -9,5 +9,6 @@ Janett Morales - Team Manager and Visualization
 
 Shantel Parrish - Data Modeler and Client Liaison
 
+Nhat - Data Analyzer, Project Documentation 
  
 
