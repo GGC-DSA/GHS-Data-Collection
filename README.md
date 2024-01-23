@@ -7,5 +7,7 @@ Students carry out the project, collecting photos, videos, stories, and particip
 
 Janett Morales - Team Manager and Visualization
 
+Shantel Parrish - Data Modeler and Client Liaison
+
  
 
