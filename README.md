@@ -6,7 +6,8 @@ Students carry out the project, collecting photos, videos, stories, and particip
 ## Spring 2024 Team 
 
 Janett Morales - Team Manager and Visualization
-![IMG_1965](https://github.com/GGC-DSA/GHS-Data-Collection/assets/134309613/df8849f2-4daa-432e-98aa-1ffab5f76e6b)
+![IMG_1965](https://github.com/GGC-DSA/GHS-Data-Collection/assets/134309613/fa3c0bd8-8765-4cd6-a420-68d22ae610b1)
+
  
 Shantel Parrish - Data Modeler and Client Liaison
 
