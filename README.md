@@ -10,7 +10,8 @@ Janett Morales - Team Manager and Visualization
 Shantel Parrish - Data Modeler and Client Liaison
 
 Nhat Vu - Data Analyzer, Project Documentation  
-![image](https://github.com/GGC-DSA/GHS-Data-Collection/assets/111990496/08a1e3c5-03a7-41d6-96bc-1beaf2d63040)
+![image](https://github.com/GGC-DSA/GHS-Data-Collection/assets/111990496/ea8d32a1-7151-4b64-9ad5-7bc8f0018f67)
+
 
 
 
