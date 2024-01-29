@@ -21,40 +21,9 @@ Date Jan 27, 2024
 
 Revised By Nhat Vu, Shantel Parrish,  
 Janett Morales 
-Reason for change 
+Reason for change: We had an initial meeting with the client to clarify the requirements for the system 
 
 
-
-
-
-
- 
-
-We had an initial meeting with the client to clarify the requirements for the system 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
 
  
 
@@ -62,16 +31,6 @@ This document has been approved as the official Requirements Document for Data C
 
  
 
-Document Approvals 
-
- 	 
-Approver Name 
-
-Project Role 
-
-Signature/Electronic Approval 
-
-Date 
 
  
 
