@@ -226,6 +226,8 @@ The following comprises the internal and external stakeholders whose requirement
 **Use Cases**
 
 ## Use Case Diagram
+![image](https://github.com/GGC-DSA/GHS-Data-Collection/assets/111990496/ba9ce272-4050-401e-b158-3f5bed03235a)
+
 
 ![](RackMultipart20240129-1-x8f8u3_html_d62a756d0faf9335.png)
 
