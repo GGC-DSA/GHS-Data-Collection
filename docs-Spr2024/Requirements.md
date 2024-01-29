@@ -316,7 +316,7 @@ Use Case Graphic
 - Feedback:
   - Implement a feedback mechanism for users to provide suggestions or report issues with the data submission process or dashboard functionality.
 
-1. **System requirements**
+2. **System requirements**
 
 - Hardware Requirements:
   - Web browser Server: A dedicated server with sufficient processing power, storage capacity, and memory to handle the expected volume of data and user requests.
@@ -334,7 +334,7 @@ Use Case Graphic
   - Provide a support system for users to report issues and ask questions.
   - Establish a mechanism for feedback collection to gather user insights for continuous improvement.
 
-1. **Functional requirements**
+3. **Functional requirements**
 
   - Teacher/Principle can submit the stories, and Numerical and text data on the dashboard.
   - All the submitted projects can be searched and seen.
@@ -342,7 +342,7 @@ Use Case Graphic
   - The simple form for submitting data needs to be easy to complete.
 
 
-1. **Non-functional requirements - might be more critical than functional ones**
+4. **Non-functional requirements - might be more critical than functional ones**
 
   - Size of the data, story can be problem to save the data.
   - Getting a huge memory to save all the data.
@@ -352,7 +352,7 @@ Use Case Graphic
   - Language should be English only.
 
 
-1. **Domain requirements**
+5. **Domain requirements**
 
   - Storage capacity.
   - Platform or service to store the data (AWM, Google Drive, One Drive, etc.
