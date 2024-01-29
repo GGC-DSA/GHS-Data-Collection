@@ -286,7 +286,7 @@ Use Case Graphic
 
  |
 
-**TYPES OF REQUIREMENTS**
+##TYPES OF REQUIREMENTS
 
 1. **User requirements**
 
