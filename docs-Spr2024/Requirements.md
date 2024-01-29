@@ -357,4 +357,3 @@ Use Case Graphic
   - Storage capacity.
   - Platform or service to store the data (AWM, Google Drive, One Drive, etc.
 
-iii
