@@ -1,4 +1,4 @@
-##                                                Data Collection for Green & Healthy Schools (GHS)
+#                                            Data Collection for Green & Healthy Schools (GHS)
 
   ##                                                    Georgia Gwinnett College
   ##                                                          ITEC 4230
