@@ -1,0 +1,31 @@
+/* style.css */
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.content {
+  display: none;
+  /* Set to 'none' to make it initially collapsed */
+  overflow: hidden;
+}
+
+.active {
+  background-color: #555;
+}
+
+
+.custom-image {
+  width: 100px;
+  /* Adjust the width as needed */
+  height: 50px;
+  /* Adjust the height as needed */
+}
