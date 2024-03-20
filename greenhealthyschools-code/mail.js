@@ -11,11 +11,14 @@ const firebaseConfig = {
 
 
 
-// initialize firebase
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
+// Get a reference to the Firebase Storage
+const storage = firebase.storage();
+
 // Reference to your database
-var ghsProfileDB = firebase.database().ref("GHSProfile");
+const ghsProfileDB = firebase.database().ref("GHSProfile");
 
 document.getElementById("profileForm").addEventListener("submit", submitForm);
 
@@ -45,37 +48,37 @@ function getCheckboxValues(checkboxName) {
 function submitForm(e) {
   e.preventDefault();
 
-  var schoolName = getElementVal("schoolName");
-  var teacherName = getElementVal("teacherNames");
-  var teacherEmail = getElementVal("teacherEmails");
-  var numberStudent1 = getElementVal("numberStudent1");
+  const schoolName = getElementVal("schoolName");
+  const teacherName = getElementVal("teacherNames");
+  const teacherEmail = getElementVal("teacherEmails");
+  const numberStudent1 = getElementVal("numberStudent1");
 
   // Section: School Level
-  var schoolLevel = getElementVal("schoolLevel");
-  var elementaryClassEnter = getElementVal("elementaryClassEnter");
-  var middleClassEnter = getElementVal("middleClassEnter");
-  var highClassEnter = getElementVal("highClassEnter");
+  const schoolLevel = getElementVal("schoolLevel");
+  const elementaryClassEnter = getElementVal("elementaryClassEnter");
+  const middleClassEnter = getElementVal("middleClassEnter");
+  const highClassEnter = getElementVal("highClassEnter");
 
   //<!-- Section 6: Student Environmental Projects -->
-  var projectParticipants = getElementVal("projectParticipants");
-  var projectDescription = getElementVal("projectDescription");
-  var outcomeImpact = getElementVal("outcomeImpact");
-  var numStudentsInvolved = getElementVal("numStudentsInvolved");
+  const projectParticipants = getElementVal("projectParticipants");
+  const projectDescription = getElementVal("projectDescription");
+  const outcomeImpact = getElementVal("outcomeImpact");
+  const numStudentsInvolved = getElementVal("numStudentsInvolved");
 
   // Section 7: Community Partners
-  var schoolPartner = getElementVal("schoolPartner");
-  var communityPartner = getElementVal("communityPartner");
-  var numStudentPartnership = getElementVal("numStudentPartnership");
-  var fieldTrip = getElementVal("fieldTrip");
-  var fieldTripSite = getElementVal("fieldTripSite")
-  var numStudentsAttended = getElementVal("numStudentsAttended");
+  const schoolPartner = getElementVal("schoolPartner");
+  const communityPartner = getElementVal("communityPartner");
+  const numStudentPartnership = getElementVal("numStudentPartnership");
+  const fieldTrip = getElementVal("fieldTrip");
+  const fieldTripSite = getElementVal("fieldTripSite")
+  const numStudentsAttended = getElementVal("numStudentsAttended");
 
   // Section 8: Food Waste
-  var foodWasteParticipation = getElementVal("foodWasteParticipation")
-  var foodWasteStrategy = getElementVal("foodWasteStrategy")
-  var foodWastePound = getElementVal("foodWastePound")
-  var shareTablePound = getElementVal("shareTablePound")
-  var numStudentSection8 = getElementVal("numStudentSection8")
+  const foodWasteParticipation = getElementVal("foodWasteParticipation")
+  const foodWasteStrategy = getElementVal("foodWasteStrategy")
+  const foodWastePound = getElementVal("foodWastePound")
+  const shareTablePound = getElementVal("shareTablePound")
+  const numStudentSection8 = getElementVal("numStudentSection8")
 
   // Section 9: Composting
   var compostStatus = getElementVal("compostStatus")
@@ -86,46 +89,50 @@ function submitForm(e) {
   var numStudentSection9 = getElementVal("numStudentSection9")
 
   // Section 10: School Gardens & Outdoor Learning Spaces
-  var schoolGardenStatus = getElementVal("schoolGardenStatus")
-  var learningAreas = getElementVal("learningAreas")
-  var foodDonation = getElementVal("foodDonation")
-  var distributionMethod = getElementVal("distributionMethod")
-  var numStudentSection10 = getElementVal("numStudentSection10")
+  const schoolGardenStatus = getElementVal("schoolGardenStatus")
+  const learningAreas = getElementVal("learningAreas")
+  const foodDonation = getElementVal("foodDonation")
+  const distributionMethod = getElementVal("distributionMethod")
+  const numStudentSection10 = getElementVal("numStudentSection10")
 
   // // Section 11: Indoor Growing Systems
-  var indoorGrowingSystemCategories = getCheckboxValues("indoorGrowingSystemCategories");
-  var foodDonationSection11 = getElementVal("foodDonationSection11");
-  var distributionMethodSection11 = getElementVal("distributionMethodSection11");
-  var numStudentSection11 = getElementVal("numStudentSection11");
+  const indoorGrowingSystemCategories = getCheckboxValues("indoorGrowingSystemCategories");
+  const foodDonationSection11 = getElementVal("foodDonationSection11");
+  const distributionMethodSection11 = getElementVal("distributionMethodSection11");
+  const numStudentSection11 = getElementVal("numStudentSection11");
 
   // Section 12: Grants and Funding for Environmental Projects
-  var grantsFunding = getElementVal("grantsFunding")
-  var grantsSponsor = getElementVal("grantsSponsor")
-  var grantAmount = getElementVal("grantAmount")
-  var grantsUtilization = getElementVal("grantsUtilization")
+  const grantsFunding = getElementVal("grantsFunding")
+  const grantsSponsor = getElementVal("grantsSponsor")
+  const grantAmount = getElementVal("grantAmount")
+  const grantsUtilization = getElementVal("grantsUtilization")
 
   // Section 13: Recycling
-  var recyclingCategories = getElementVal("recyclingCategories")
-  var recyclingCompany = getElementVal("recyclingCompany")
-  var recyclingCost = getElementVal("recyclingCost")
-  var numStudentParticipationSection13 = getElementVal("numStudentParticipationSection13");
+  const recyclingCategories = getElementVal("recyclingCategories")
+  const recyclingCompany = getElementVal("recyclingCompany")
+  const recyclingCost = getElementVal("recyclingCost")
+  const numStudentParticipationSection13 = getElementVal("numStudentParticipationSection13");
 
   // Section 14: Water Education
-  var waterEducationInput = getElementVal("waterEducationInput")
-  var waterEducationProjects = getElementVal("waterEducationProjects")
-  var waterEducationDates = getElementVal("waterEducationDates")
-  var waterEducationParticipants = getElementVal("waterEducationParticipants")
-  var waterEducationTime = getElementVal("waterEducationTime")
+  const waterEducationInput = getElementVal("waterEducationInput")
+  const waterEducationProjects = getElementVal("waterEducationProjects")
+  const waterEducationDates = getElementVal("waterEducationDates")
+  const waterEducationParticipants = getElementVal("waterEducationParticipants")
+  const waterEducationTime = getElementVal("waterEducationTime")
 
 
-  // Image handling
-  const projectImages = document.getElementById("projectImages").files;
+  // Section 15: Images and ImageURL
+  const images = document.getElementById('projectImages').files;
   const imageURL = getElementVal("imageURL");
 
 
-  saveProfileData(schoolName, teacherName, teacherEmail, numberStudent1, schoolLevel, elementaryClassEnter, middleClassEnter, highClassEnter, projectParticipants, projectDescription, outcomeImpact, numStudentsInvolved, schoolPartner, communityPartner, numStudentPartnership, fieldTrip, fieldTripSite, numStudentsAttended, foodWasteParticipation, foodWasteStrategy, foodWastePound, shareTablePound, numStudentSection8, compostStatus, compostingItems, collectionProcess, compostUsage, foodWaste, numStudentSection9, schoolGardenStatus, learningAreas, foodDonation, distributionMethod, numStudentSection10, indoorGrowingSystemCategories, foodDonationSection11, distributionMethodSection11, numStudentSection11, grantsFunding, grantsSponsor, grantAmount, grantsUtilization, recyclingCategories, recyclingCompany, recyclingCost, numStudentParticipationSection13, waterEducationInput, waterEducationProjects, waterEducationDates, waterEducationParticipants, waterEducationTime, projectImages, imageURL);
+  saveProfileData(schoolName, teacherName, teacherEmail, numberStudent1, schoolLevel, elementaryClassEnter, middleClassEnter, highClassEnter, projectParticipants, projectDescription, outcomeImpact, numStudentsInvolved, schoolPartner, communityPartner, numStudentPartnership, fieldTrip, fieldTripSite, numStudentsAttended, foodWasteParticipation, foodWasteStrategy, foodWastePound, shareTablePound, numStudentSection8, compostStatus, compostingItems, collectionProcess, compostUsage, foodWaste, numStudentSection9, schoolGardenStatus, learningAreas, foodDonation, distributionMethod, numStudentSection10, indoorGrowingSystemCategories, foodDonationSection11, distributionMethodSection11, numStudentSection11, grantsFunding, grantsSponsor, grantAmount, grantsUtilization, recyclingCategories, recyclingCompany, recyclingCost, numStudentParticipationSection13, waterEducationInput, waterEducationProjects, waterEducationDates, waterEducationParticipants, waterEducationTime, imageURL);
 
 
+  // Save images to Firebase Storage
+  if (images.length > 0) {
+    saveImagesToStorage(images);
+  }
 
   // Enable alert
   document.querySelector(".alert").style.display = "block";
@@ -141,90 +148,109 @@ function submitForm(e) {
 
 
 
+// Function to save profile data to Realtime Database
+function saveProfileData(schoolName, teacherName, teacherEmail, numberStudent1, schoolLevel, elementaryClassEnter, middleClassEnter, highClassEnter, projectParticipants, projectDescription, outcomeImpact, numStudentsInvolved, schoolPartner, communityPartner, numStudentPartnership, fieldTrip, fieldTripSite, numStudentsAttended, foodWasteParticipation, foodWasteStrategy, foodWastePound, shareTablePound, numStudentSection8, compostStatus, compostingItems, collectionProcess, compostUsage, foodWaste, numStudentSection9, schoolGardenStatus, learningAreas, foodDonation, distributionMethod, numStudentSection10, indoorGrowingSystemCategories, foodDonationSection11, distributionMethodSection11, numStudentSection11, grantsFunding, grantsSponsor, grantAmount, grantsUtilization, recyclingCategories, recyclingCompany, recyclingCost, numStudentParticipationSection13, waterEducationInput, waterEducationProjects, waterEducationDates, waterEducationParticipants, waterEducationTime, imageURL) {
 
-
-const saveProfileData = (schoolName, teacherName, teacherEmail, numberStudent1, schoolLevel, elementaryClassEnter, middleClassEnter, highClassEnter, projectParticipants, projectDescription, outcomeImpact, numStudentsInvolved, schoolPartner, communityPartner, numStudentPartnership, fieldTrip, fieldTripSite, numStudentsAttended, foodWasteParticipation, foodWasteStrategy, foodWastePound, shareTablePound, numStudentSection8, compostStatus, compostingItems, collectionProcess, compostUsage, foodWaste, numStudentSection9, schoolGardenStatus, learningAreas, foodDonation, distributionMethod, numStudentSection10, indoorGrowingSystemCategories, foodDonationSection11, distributionMethodSection11, numStudentSection11, grantsFunding, grantsSponsor, grantAmount, grantsUtilization, recyclingCategories, recyclingCompany, recyclingCost, numStudentParticipationSection13, waterEducationInput, waterEducationProjects, waterEducationDates, waterEducationParticipants, waterEducationTime, projectImages, imageURL) => {
-
-
-
-  var newProfileEntry = ghsProfileDB.push();
-
+  const newProfileEntry = ghsProfileDB.push();
   newProfileEntry.set({
+
     schoolName: schoolName,
     teacherName: teacherName,
     teacherEmail: teacherEmail,
     numberStudent1: numberStudent1,
 
     schoolLevel: schoolLevel,
-    elementaryClassEnter,
-    middleClassEnter,
-    highClassEnter,
+    elementaryClassEnter: elementaryClassEnter,
+    middleClassEnter: middleClassEnter,
+    highClassEnter: highClassEnter,
 
-    projectParticipants,
-    projectDescription,
-    outcomeImpact,
-    numStudentsInvolved,
+    projectParticipants: projectParticipants,
+    projectDescription: projectDescription,
+    outcomeImpact: outcomeImpact,
+    numStudentsInvolved: numStudentsInvolved,
 
-    schoolPartner,
-    communityPartner,
-    numStudentPartnership,
-    fieldTrip,
-    fieldTripSite,
-    numStudentsAttended,
+    schoolPartner: schoolPartner,
+    communityPartner: communityPartner,
+    numStudentPartnership: numStudentPartnership,
+    fieldTrip: fieldTrip,
+    fieldTripSite: fieldTripSite,
+    numStudentsAttended: numStudentsAttended,
 
-    foodWasteParticipation,
-    foodWasteStrategy,
-    foodWastePound,
-    shareTablePound,
-    numStudentSection8,
+    foodWasteParticipation: foodWasteParticipation,
+    foodWasteStrategy: foodWasteStrategy,
+    foodWastePound: foodWastePound,
+    shareTablePound: shareTablePound,
+    numStudentSection8: numStudentSection8,
 
-    compostStatus,
-    compostingItems,
-    collectionProcess,
-    compostUsage,
-    foodWaste,
-    numStudentSection9,
+    compostStatus: compostStatus,
+    compostingItems: compostingItems,
+    collectionProcess: collectionProcess,
+    compostUsage: compostUsage,
+    foodWaste: foodWaste,
+    numStudentSection9: numStudentSection9,
 
-    schoolGardenStatus,
-    learningAreas,
-    foodDonation,
-    distributionMethod,
-    numStudentSection10,
+    schoolGardenStatus: schoolGardenStatus,
+    learningAreas: learningAreas,
+    foodDonation: foodDonation,
+    distributionMethod: distributionMethod,
+    numStudentSection10: numStudentSection10,
 
-    indoorGrowingSystemCategories,
-    foodDonationSection11,
+    indoorGrowingSystemCategories: indoorGrowingSystemCategories,
+    foodDonationSection11: foodDonationSection11,
     distributionMethodSection11,
-    numStudentSection11,
+    numStudentSection11: distributionMethodSection11,
 
-    grantsFunding,
-    grantsSponsor,
-    grantAmount,
-    grantsUtilization,
+    grantsFunding: grantsFunding,
+    grantsSponsor: grantsSponsor,
+    grantAmount: grantAmount,
+    grantsUtilization: grantsUtilization,
 
-    recyclingCategories,
-    recyclingCompany,
-    recyclingCost,
-    numStudentParticipationSection13,
+    recyclingCategories: recyclingCategories,
+    recyclingCompany: recyclingCompany,
+    recyclingCost: recyclingCost,
+    numStudentParticipationSection13: numStudentParticipationSection13,
 
-    waterEducationInput,
-    waterEducationProjects,
-    waterEducationDates,
-    waterEducationParticipants,
-    waterEducationTime,
+    waterEducationInput: waterEducationInput,
+    waterEducationProjects: waterEducationProjects,
+    waterEducationDates: waterEducationDates,
+    waterEducationParticipants: waterEducationParticipants,
+    waterEducationTime: waterEducationTime,
 
-    // imageFile,
-    projectImages,
-    imageURL
-
-
+    imageURL: imageURL,
   });
-};
+}
 
-const getElementVal = (id) => {
+
+
+
+// Function to save images to Firebase Storage
+function saveImagesToStorage(images) {
+  Array.from(images).forEach(image => {
+    const imageName = image.name;
+    const imageRef = storage.ref('project_images/' + imageName);
+    const uploadTask = imageRef.put(image);
+
+    // Update progress bar if needed
+    uploadTask.on('state_changed',
+      function(snapshot) {
+        // Observe state change events such as progress, pause, and resume
+      },
+      function(error) {
+        // Handle unsuccessful uploads
+        console.error('Error uploading image:', error);
+      },
+      function() {
+        // Handle successful uploads on complete
+        console.log('Image uploaded successfully:', imageName);
+      }
+    );
+  });
+}
+
+// Function to get values from form elements
+function getElementVal(id) {
   return document.getElementById(id).value;
-};
-
-
+}
 
 
 
