@@ -29,3 +29,16 @@
   height: 50px;
   /* Adjust the height as needed */
 }
+
+
+.alert{
+  width: 100%;
+  background: rgb(0, 255, 255);
+  padding: 10px 20 px;
+  border-radius: 5 px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  display: none;
+
+}
