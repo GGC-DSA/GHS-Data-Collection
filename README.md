@@ -5,8 +5,8 @@ Green and Healthy Schools - Data Collection Project
 Students carry out the project, collecting photos, videos, stories, and participation data to GHS. The project requires the creation of a dashboard for easy search and viewing of all submitted projects. The data should be stored in a searchable database, and a user-friendly submission form needs to be developed for teachers.
 ## Spring 2024 Team 
 
-Janett Morales - Team Manager and Visualization
-![IMG_1965](https://github.com/GGC-DSA/GHS-Data-Collection/assets/134309613/fa3c0bd8-8765-4cd6-a420-68d22ae610b1)
+[Janett Morales](https://github.com/JanettM6) - Team Manager and Visualization
+
 
  
 Shantel Parrish - Data Modeler and Client Liaison
