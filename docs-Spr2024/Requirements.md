@@ -13,58 +13,20 @@ Version 1
 
 **UTORS**
 
-| **Version History** |
- |
- |
- |
+**Version History**
+
+| **Version** | **Date** | **Revised By** | **Reason for change** |
 | --- | --- | --- | --- |
-| **Version #** | **Date** | **Revised By** | **Reason for change** |
-| **Version 1** | **Jan 27, 2024** | **Nhat Vu**** Shantel Parrish ****Janett Morales**
- | **We had an initial meeting with the client to clarify the requirements for the system** |
-|
- |
- |
- |
- |
-|
- |
- |
- |
- |
-|
- |
- |
- |
- |
+| **Version 1** | **Jan 27, 2024** | **Nhat Vu, Shantel Parrish, Janett Morales** | **We had an initial meeting with the client to clarify the requirements for the system** |
+
 
 This document has been approved as the official Requirements Document for **Data Collection for Green & Healthy Schools (GHS)****,** and accurately reflects the current understanding of client requirements. Following approval of this document, requirement changes will be governed by the project's change management process, including impact analysis, appropriate reviews and approvals.
 
-| **Document Approvals** |
- |
- |
- |
-| --- | --- | --- | --- |
+**Document Approvals**
+
 | **Approver Name** | **Project Role** | **Signature/Electronic Approval** | **Date** |
-|
- |
- |
- |
- |
-|
- |
- |
- |
- |
-|
- |
- |
- |
- |
-|
- |
- |
- |
- |
+| --- | --- | --- | --- |
+| | | | |
 
 # Contents
 
@@ -104,31 +66,28 @@ _[Use Case Narrative 5](#_Toc157364952)_
 
 [1.User requirements 6](#_Toc157364954)
 
-[User Authentication and Access Control: 6](#_Toc157364955)
+[2.User Authentication and Access Control: 6](#_Toc157364955)
 
-[2.System requirements 7](#_Toc157364956)
+[3.System requirements 7](#_Toc157364956)
 
-[3.Functional requirements 8](#_Toc157364957)
+[4.Functional requirements 8](#_Toc157364957)
 
-[4.Non-functional requirements - might be more critical than functional ones 8](#_Toc157364958)
+[5.Non-functional requirements - might be more critical than functional ones 8](#_Toc157364958)
 
-[5.Domain requirements 8](#_Toc157364959)
+[6.Domain requirements 8](#_Toc157364959)
 
 **Project Details**
 
 | **Project Name** | **Data Collection for Green & Healthy Schools (GHS)** |
 | --- | --- |
-| **Project Type** | _ **New Initiative or Phase I** _ |
+| **Project Type** | **New Initiative or Phase I** |
 | **Project Start Date** | Jan 8, 2024 |
 | **Project End Date** | Apr 25, 2024 |
 | **Project Sponsor** | Dr. Anca |
-| **Primary Driver** | _ **Mandatory or Efficiency** _ |
-| **Secondary Driver** |
- |
-| **Division** |
- |
-| **Project Manager/Dept** |
- |
+| **Primary Driver** | **Mandatory or Efficiency** |
+| **Secondary Driver** | |
+| **Division** | |
+| **Project Manager/Dept** | |
 
 **Overview**
 
@@ -143,29 +102,14 @@ The purpose of this document is to define the requirements for the development o
 
 | **Name** | **Business Unit** | **Role** |
 | --- | --- | --- |
-| Jenna Mobley | [**Gwinnett County Public Schools**](https://www.linkedin.com/company/gwinnett-county-public-schools?trk=public_profile_topcard-current-company)
- |
-## Green Schools Program Assistant Manager Gwinnett County Public Schools
- |
-| --- | --- | --- |
-| Brenda O McDaniel | [**Gwinnett County Public Schools**](https://www.linkedin.com/company/gwinnett-county-public-schools?trk=public_profile_topcard-current-company) |
-## Green Schools Program Manager Gwinnett County Public Schools
- |
-|
- |
- |
- |
-|
- |
- |
- |
+| Jenna Mobley | [**Gwinnett County Public Schools**](https://www.linkedin.com/company/gwinnett-county-public-schools?trk=public_profile_topcard-current-company)| ## Green Schools Program Assistant Manager Gwinnett County Public Schools|
+| Brenda O McDaniel | [**Gwinnett County Public Schools**](https://www.linkedin.com/company/gwinnett-county-public-schools?trk=public_profile_topcard-current-company) | ## Green Schools Program Manager Gwinnett County Public Schools |
 
 **Glossary of Terms**
 
 | **Term/Acronym** | **Definition** |
 | --- | --- |
 | Green & Healthy Schools (GHS) | The GHS Program is a joint initiative of Gwinnett Clean & Beautiful and GCPS and provides integrated environmental education, incorporating applications of Science AKS, problem-solving, civic skills, and green career pathways. |
-| --- | --- |
 
 **Project Overview**
 
@@ -189,13 +133,10 @@ System, Client requirements.
 
 The following comprises the internal and external stakeholders whose requirements are represented by this document:
 
-|
- | **Stakeholders** |
+| **Stakeholders** | |
 | --- | --- |
 | 1. | Jenna Mobley |
-| --- | --- |
-| 2.
- | Brenda O McDaniel |
+| 2. | Brenda O McDaniel |
 
 **Key Assumptions and Constraints**
 
@@ -207,21 +148,11 @@ The following comprises the internal and external stakeholders whose requirement
 | 2 | Users are assumed to have basic computer literacy, and any necessary training will be provided to ensure effective usage of the system |
 | 3 | It is assumed that the data entered into the system by users is accurate and reflective of the actual environment practices in their respective classes |
 | 4 | The system assumes that users will use commonly available devices with standard web browsers to interact with the online form and dashboard |
+
 | **#** | **Constraints** |
+| --- | ---|
 | 1 | The system is constrained to be compatible with commonly used web browsers, such as Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge. Compatibility with older browser versions may not be guaranteed |
 | 2 | The system is constrained by the need to maintain optimal performance. It should handle a reasonable number of concurrent users without significant degradation in response time |
-|
- |
- |
-|
- |
- |
-|
- |
- |
-|
- |
- |
 
 **Use Cases**
 
@@ -237,54 +168,30 @@ The following comprises the internal and external stakeholders whose requirement
 | --- | --- |
 | Use Case Name: | GHS Database/website |
 | Created by: | Janett Morales |
- |
- |
-| Date Created: | Jan 27, 2024 | Date Last Updated: |
- |
+| Date Created: | Jan 27, 2024 |
+| Date Last Updated: | |
 
 | Actors: | The actors are the teachers, principals, and program managers |
 | --- | --- |
 | Description: | The scenario outlines how individuals can utilize a website to interact with the database. Access is permitted upon entering a valid Gwinnett County email and password. Once granted entry, users can navigate to their desired data category for input. Upon saving the data, the dashboard visualization is promptly refreshed to reflect the latest information. |
 | Preconditions: | User must have a Gwinnett County email to access the website |
 | Postconditions: | The data should save and update the visualization |
-| Normal Course: |
-1. Open browser
-2. Type in web URL
-3. Input login information
-4. Select category to input data
-5. Dashboard updates with new data information
-6. Actor saves their latest input
-7. Logs out
- |
-| Alternative Courses: |
-1. Open browser
-2. Type in web URL
-3. Input login information
-4. Filter data by schools
-5. Pull reports needed on the data
- |
-| Exceptions: |
- |
-| Includes: |
- |
+| Normal Course: | 1. Open browser  <br /> 2. Type in web URL <br /> 3. Input login information <br /> 4. Select category to input data <br /> 5. Dashboard updates with new data information <br /> 6. Actor saves their latest input <br /> 7. Logs out |
+| Alternative Courses: | 1. Open browser <br /> 2. Type in web URL <br /> 3. Input login information <br /> 4. Filter data by schools <br /> 5. Pull reports needed on the data |
+| Exceptions: | |
+| Includes: | |
 | Priority: | High |
 | Frequency of Use: | Quarterly |
-| Business Rules |
- |
-| Special Requirements: |
-- Must have a dashboard that visualizes the data of the school
-- Can save the new data
-- Can access certain categories instead of filling out the whole file
- |
+| Business Rules | |
+| Special Requirements: | - Must have a dashboard that visualizes the data of the school <br /> - Can save the new data <br /> - Can access certain categories instead of filling out the whole file |
 | Assumptions: | None |
 | Notes and Issues: | None |
-|
 
 
 Use Case Graphic
- ![](RackMultipart20240129-1-x8f8u3_html_4a7d684faed2cdbf.png)
 
- |
+![](RackMultipart20240129-1-x8f8u3_html_4a7d684faed2cdbf.png)
+
 
 ## TYPES OF REQUIREMENTS
 
