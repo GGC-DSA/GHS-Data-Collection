@@ -1,13 +1,18 @@
-# GHS-Data-Collection
-Green and Healthy Schools - Data Collection Project
+# Data Collection for Green and Healthy Schools
 
-## Project Description 
-Students carry out the project, collecting photos, videos, stories, and participation data to GHS. The project requires the creation of a dashboard for easy search and viewing of all submitted projects. The data should be stored in a searchable database, and a user-friendly submission form needs to be developed for teachers.
+<img src="https://imgur.com/zdw7l4F.png" width="800"/>
+
+## Project Description
+
+Students have engineered a user-friendly web interface, facilitating educators in seamlessly inputting data regarding their school's environmental footprint and initiatives. This comprehensive database encompasses narratives, photographs, videos, and participation records. It serves as a centralized repository for information on energy utilization, waste handling, water consumption, carbon footprint, and an array of eco-friendly endeavors such as recycling programs, composting initiatives, sustainability campaigns, and outdoor educational ventures. Furthermore, a dynamic dashboard has been integrated to present statistical analyses, enabling accurate presentation to the district board and stakeholders.
+
 ## Spring 2024 Team 
 
 **[Janett Morales](https://github.com/JanettM6)**
 1. *Team Manager👍*
 2. *Visualization⚜️*
+
+<img src="https://imgur.com/ZvAfbKU.png" width ="200"/>
  
 **[Shantel Parrish](https://github.com/sparrish1)**
 1. *Data Modeler💻*
