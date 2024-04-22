@@ -54,6 +54,10 @@ CREATE Symposium - Georgia Gwinnett College - April 25, 2024
 
 ### Project Status
 
+- **Real-time Database Updates**: The project successfully utilizes Firebase as a backend database, enabling real-time updates. Any changes made to the database reflect immediately in the system.
+- **Web-Based Questionnaire**: The web-based questionnaire feature is fully functional, allowing users to input data seamlessly. Responses are stored in the Firebase database in real-time.
+- **Dashboard Integration**: A dashboard interface is implemented, providing a visual representation of the data stored in the Firebase database. The dashboard refreshes every 15 minutes to ensure up-to-date information.
+
 ### Datasets
 
 The dataset used in this project contains sensitive personal information and is therefore not publicly available. We are committed to protecting the privacy and confidentiality of individuals whose data is included in the dataset.
