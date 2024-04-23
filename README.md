@@ -12,7 +12,7 @@ _**Insert Link Here**_
 
 ### Project Website
 
-_**Insert Link Here**_
+Here is the link to the [website](https://ghs-data-collection.weebly.com/)
 
 ### Project Notebook
 
@@ -53,8 +53,6 @@ You can find our final report [here](docs-Spr2024/final_report.md).
 STaRS - Georgia Gwinnett College - April 11, 2024
 
 CREATE Symposium - Georgia Gwinnett College - April 25, 2024
-
-### Project Set-Up
 
 ### Project Usage
 1. **Educators**:
