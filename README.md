@@ -8,11 +8,11 @@ Students have engineered a user-friendly web interface, facilitating educators i
 
 ### Project Demo Link
 
-**Insert Link Here**
+_**Insert Link Here**_
 
 ### Project Website
 
-**Insert Website Here**
+_**Insert Link Here**_
 
 ### Project Notebook
 
@@ -70,11 +70,39 @@ The dataset used in this project contains sensitive personal information and is 
 
 For access to the dataset or inquiries regarding data usage, please contact one of the team members or Dr. Anca Doloc-Mihu.
 
-### Main Analysis
+### Main Methods
 
 ### Results
 
+**Result 1**:
+The graph shows that fourth graders consume the highest amount of fruits and vegetables compared to other grades, indicating potential trends in dietary habits among different age groups.
+
+**Result 2**:
+The contingency table reveals a clear connection between the presence of outdoor spaces and composting practices in schools. Most schools lacking composting initiatives have green areas, except for one school, suggesting a potential target for focused intervention and further research.
+
+<img src="https://imgur.com/X8whLcG.png" width="500"/>
+
 ### Remaining Scope
+
+1. **Expand Database for Additional Inputs**:
+   - Research and plan the necessary database schema changes to support additional inputs
+   - Implement database modification to accommodate teachers to submit data whenever necessary
+   - Test database changes and submission process across different user scenarios to dentify and address any issues
+2. **Incorporate Media File Submission**:
+   - Research and select appropriate storage solutions for handling images and videos
+   - Design and implement a feature for teachers to upload media files along with their data form submissions
+   - Develop backend functionality to securely store and organize media files in the chosen storage solution
+   - Test media file submission functionality across different devices and file formats to ensure reliability.
+3. **Organize Media Files by Project Category**:
+   - Define a categorization system for organizing media files by project type or category
+   - Implement features to tag or label media files with relevant project categories during submission.
+   - Develop functionality for administrators to filter and access media files based on project categories
+   - Test the organization and retrieval of media files to ensure accuracy and efficiency.
+4. **Expand Dashboard with Additional Filters**:
+   - Plan and design the new filters to be added to the dashboard for viewing statistics
+   - Develop backend functionality to retrieve and filter data based on selected criteria such as schools, grade levels, clusters, and overall data
+   - Integrate the new filters seamlessly into the existing dashboard interface, ensuring a cohesive user experience
+   - Test the functionality of the new filters across different user scenarios to ensure accuracy and performance
 
 
 
