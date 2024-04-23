@@ -16,7 +16,8 @@ _**Insert Link Here**_
 
 ### Project Notebook
 
-[Colab Notebook](https://colab.research.google.com/drive/1BIvrXFGp6rFO2Ys5EcRHZP3MPoTO6eol?usp=sharing)
+[Colab Notebook for Overall Project Data](https://colab.research.google.com/drive/1BIvrXFGp6rFO2Ys5EcRHZP3MPoTO6eol?usp=sharing)
+[Colab Notebook for Food Waste Data](https://colab.research.google.com/drive/15bckrM-33ksLp0r7J0vBYSPhbhPcp8EV?usp=sharing)
 
 ### Project Poster
 
@@ -55,6 +56,12 @@ CREATE Symposium - Georgia Gwinnett College - April 25, 2024
 ### Project Set-Up
 
 ### Project Usage
+1. **Educators**:
+   Teachers can use the web interface to submit data regarding their school's environmental initiatives and activities on a quarterly basis. They can access the dynamic dashboard to view statistical analyses and trends related to environmental education activities in their school and compare them with other schools. Educators can utilize the insights generated from the project to inform curriculum development, identify areas for improvement, and track progress towards environmental sustainability goals.
+2. **Administrators**:
+   School administrators and district officials can access the centralized database to review comprehensive information on energy utilization, waste handling, water consumption, and other eco-friendly endeavors across schools. They can use the dashboard to generate reports and presentations for district board meetings, stakeholders, and policymakers to advocate for funding and support for environmental initiatives. Administrators can identify schools with successful composting practices or lacking initiatives despite having outdoor spaces, allowing targeted interventions and resource allocation.
+3. **Future Research**:
+   Researchers and academics can utilize the project's dataset and findings as a valuable resource for further analysis and research on environmental education, sustainability practices, and school-based interventions. The project's open-access nature and comprehensive dataset make it a valuable resource for longitudinal studies, comparative analyses, and interdisciplinary research collaborations.
 
 ## Spring 2024
 
@@ -72,15 +79,40 @@ For access to the dataset or inquiries regarding data usage, please contact one 
 
 ### Main Methods
 
+1. **Data Processing**: Preprocessed the raw data collected from schools to prepare it for analysis
+   - Removed any duplicate or null values to ensure data quality
+   - Converted categorical variables into numerical formats
+   - Other necessary operations
+2. **Exploratory Data Analysis**: Conducted exploratory analysis to gain insights into the relationships and patterns within the dataset
+   - Created plots and charts to visualize distributions, correlations, and trends in the data
+   - Calculated summary statistics to describe the characteristics of the data
+3. **Correlation Analysis**: Investigated correlations between different variables to identify potential relationships and dependencies
+   - Calculated correlation coefficients to measure the strength and direction of linear relationships between pairs of variables
+   - Generated a correlation matrix to visualize the correlations between multiple variables simultaneously
+4. **Regression Analysis**: Conducted regression analysis to analyze the relationship between student enrollment, staff numbers, and environmental education activities
+   - Fitted linear regression models to explore the association between enrollment, staff numbers, and environmental education activities
+   - Evaluated model assumptions and checked for outliers, multicollinearity, and heteroscedasticity
+5. **Contingency Table Analysis**: Used contingency tables to analyze the relationship between outdoor spaces and composting practices in schools
+   - Applied chi-square tests to determine if there was a significant association between outdoor spaces and composting practices
+   - Examined the distribution of schools across categories of outdoor spaces and composting practices to identify patterns and trends
+
 ### Results
 
 **Result 1**:
 The graph shows that fourth graders consume the highest amount of fruits and vegetables compared to other grades, indicating potential trends in dietary habits among different age groups.
 
+<img src="https://imgur.com/p2xdN5x.png" width="500"/>
+
 **Result 2**:
 The contingency table reveals a clear connection between the presence of outdoor spaces and composting practices in schools. Most schools lacking composting initiatives have green areas, except for one school, suggesting a potential target for focused intervention and further research.
 
 <img src="https://imgur.com/X8whLcG.png" width="500"/>
+
+**Result 3**:
+The regression lines disprove the hypothesis that student enrollment significantly impacts environmental education activities, with the only positive correlation found between 'Number of Students Enrolled in School' and 'Number of Teachers and Support Staff'.
+
+<img src="https://imgur.com/XzRYcq7.png" width="500"/>
+
 
 ### Remaining Scope
 
@@ -100,7 +132,7 @@ The contingency table reveals a clear connection between the presence of outdoor
    - Test the organization and retrieval of media files to ensure accuracy and efficiency.
 4. **Expand Dashboard with Additional Filters**:
    - Plan and design the new filters to be added to the dashboard for viewing statistics
-   - Develop backend functionality to retrieve and filter data based on selected criteria such as schools, grade levels, clusters, and overall data
+   - Develop backend functionality to retrieve and filter data based on selected criteria such as teachers, schools, grade levels, clusters, and overall data
    - Integrate the new filters seamlessly into the existing dashboard interface, ensuring a cohesive user experience
    - Test the functionality of the new filters across different user scenarios to ensure accuracy and performance
 
