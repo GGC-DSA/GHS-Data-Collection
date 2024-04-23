@@ -16,8 +16,9 @@ _**Insert Link Here**_
 
 ### Project Notebook
 
-[Colab Notebook for Overall Project Data](https://colab.research.google.com/drive/1BIvrXFGp6rFO2Ys5EcRHZP3MPoTO6eol?usp=sharing)
-[Colab Notebook for Food Waste Data](https://colab.research.google.com/drive/15bckrM-33ksLp0r7J0vBYSPhbhPcp8EV?usp=sharing)
+You can find our code for the notebook of [overall project analysis](code/Overall_Data.py) and [food waste analysis](code/Food_Waste_Data.py). We did not post the ipynb files as it previews personal information.
+
+For access to the dataset or inquiries regarding data usage, please contact one of the team members or Dr. Anca Doloc-Mihu.
 
 ### Project Poster
 
