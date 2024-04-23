@@ -6,13 +6,13 @@ The team has developed a database with a user-friendly web interface, facilitati
 
 This comprehensive database stores narratives, photographs, videos, and participation records, serving as a centralized repository for information on energy utilization, waste handling, water consumption, carbon footprint, and an array of eco-friendly projects such as recycling programs, composting initiatives, sustainability campaigns, and outdoor educational ventures.
 
-Furthermore, a dynamic dashboard has been integrated to present statistical analyses, enabling accurate presentation to the education board and stakeholders. The dashboard will be expanded in future iterations to include more filters for viewing statistics by schools, grade levels, clusters, and overall. 
+Furthermore, a dynamic dashboard has been integrated to present statistical analyses, enabling accurate presentation to the education board and stakeholders.
 
 The target audience primarily includes teachers and staff supporting environmental projects within schools. By providing a more user-friendly interface, the project aims to encourage more frequent and accurate data submission. This will enable the Green and Healthy Schools team to present quality visualizations to the board and stakeholders, potentially leading to increased funding and support for developing additional environmental projects and raising awareness.
 
 Technologically, the project utilizes Firebase as the database, connected to an HTML/CSS web page for real-time data updates. A Google Sheet is linked to the admin for viewing raw data, and a dashboard provides useful statistics updated automatically every 15 minutes.
 
-Future plans involve expanding the database to support additional inputs, allowing teachers to submit data whenever necessary. Moreover, the project aims to incorporate media file submission (images and videos) and organize them by project category for easy access by administrators.
+Future plans involve expanding the database to support additional inputs, allowing teachers to submit data whenever necessary. Also, the dashboard will be expanded in future iterations to include more filters for viewing statistics by schools, grade levels, clusters, and overall. Moreover, the project aims to incorporate media file submission (images and videos) and organize them by project category for easy access by administrators.
 
 
 ## Team Members
