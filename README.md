@@ -8,7 +8,11 @@ Students have engineered a user-friendly web interface, facilitating educators i
 
 ### Project Demo Link
 
+**Insert Link Here**
+
 ### Project Website
+
+**Insert Website Here**
 
 ### Project Notebook
 
@@ -19,6 +23,8 @@ Students have engineered a user-friendly web interface, facilitating educators i
 [Marq Poster](https://app.marq.com/documents/edit/e5e7d160-2679-435f-aaf7-2550ec5ca1a6?shared=true)
 
 ### Final Report
+
+You can find our final report [here](docs-Spr2024/final_report.md).
 
 ## Spring 2024 Team 
 
