@@ -8,7 +8,7 @@ Students have engineered a user-friendly web interface, facilitating educators i
 
 ### Project Demo Link
 
-_**Insert Link Here**_
+Here is the link to the [demo video](https://ggcedu-my.sharepoint.com/:v:/g/personal/nvu3_ggc_edu/Ee7AYmnrex9JuMssZKyu72EBXwgty1Rot006zFbUj7GvaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=5iUWHr)
 
 ### Project Website
 
