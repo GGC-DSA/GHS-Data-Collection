@@ -120,7 +120,7 @@ The regression lines disprove the hypothesis that student enrollment significant
 3. **Organize Media Files by Project Category**
 4. **Expand Dashboard with Additional Filters**
 
-More information can be found in the [TODO document](docs-Spring2024/TODO.md)
+More information can be found in the [TODO document](docs-Spr2024/TODO.md)
 
 
 
