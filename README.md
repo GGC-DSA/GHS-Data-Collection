@@ -12,7 +12,7 @@ Here is the link to the [demo video](https://ggcedu-my.sharepoint.com/:v:/g/pers
 
 ### Project Website
 
-Here is the link to the [website](https://ghs-data-collection.weebly.com/)
+Here is the link to the [website](https://sites.google.com/view/ghsdatacollection-com/home)
 
 ### Project Notebook
 
