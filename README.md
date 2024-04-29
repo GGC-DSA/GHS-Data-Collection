@@ -26,7 +26,7 @@ For access to the dataset or inquiries regarding data usage, please contact one 
 
 ### Final Report
 
-You can find our final report [here](docs-Spr2024/Final Report - GHS.pdf).
+You can find our final report [here](docs-Spr2024/Final_Report_-_GHS.pdf).
 
 ## Spring 2024 Team 
 
