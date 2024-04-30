@@ -1,0 +1,1 @@
+The file mail.js contains the code to config the database to the form. Private credentials have been removed to protect sensitive information. Please input your database account information to make the code work.
