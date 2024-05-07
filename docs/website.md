@@ -2,4 +2,4 @@ The team was unable to create Github Page because we do not have permissions to 
 
 ## Please follow this link for the [website](https://sites.google.com/view/ghsdatacollection-com/home)
  
-## Please follow this link for the Submition Form Website:[Wesbite](https://ghsdatacollection.neocities.org/)
+## Please follow this link for the Submition Form Website: [Wesbite](https://ghsdatacollection.neocities.org/)
